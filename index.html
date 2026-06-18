@@ -3,43 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Blog Simples</title>
-    <!-- Vincula o arquivo de estilos CSS -->
+    <title>Meu Blog Pessoal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Cabeçalho do Blog -->
+    <!-- Cabeçalho -->
     <header>
         <h1>DevBlog 🚀</h1>
-        <p>Compartilhando ideias de forma simples</p>
+        <p>Artigos, tutoriais e pensamentos sobre tecnologia.</p>
     </header>
 
+    <!-- Conteúdo Principal -->
     <div class="container">
-        
-        <!-- Formulário para Criar Novo Post -->
-        <div class="form-container">
-            <h2>Nova Publicação</h2>
-            <form id="blogForm">
-                <input type="text" id="postTitle" placeholder="Título da sua postagem" required>
-                <textarea id="postContent" placeholder="Escreva o conteúdo aqui..." required></textarea>
-                <button type="submit">Publicar</button>
-            </form>
-        </div>
-
-        <!-- Seção onde as postagens vão aparecer -->
         <main id="blogFeed">
-            <!-- Postagem Padrão -->
-            <article class="post">
-                <h2>Minha Primeira Postagem no Blog</h2>
-                <div class="date">Publicado em 18 de junho de 2026</div>
-                <p>Este é o layout inicial do nosso blog criado com a estrutura dividida em arquivos separados de HTML, CSS e JavaScript.</p>
-            </article>
-        </main>
 
+            <!-- Artigo 1 -->
+            <article class="post">
+                <span class="category">Tecnologia</span>
+                <h2>O Futuro do Desenvolvimento Web em 2026</h2>
+                <div class="date">Publicado em 18 de Junho de 2026</div>
+                <p>O ecossistema web mudou drasticamente. Hoje, o foco total está na performance máxima, renderização híbrida inteligente e na integração nativa de assistentes baseados em inteligência artificial diretamente no fluxo de desenvolvimento front-end.</p>
+            </article>
+
+            <!-- Artigo 2 -->
+            <article class="post">
+                <span class="category">Produtividade</span>
+                <h2>Como Organizar Seus Estudos de Programação</h2>
+                <div class="date">Publicado em 15 de Junho de 2026</div>
+                <p>Estudar tecnologia pode ser esmagador devido à quantidade de ferramentas novas todos os dias. A chave para a consistência é focar nos fundamentos: domine bem a lógica, estruturas de dados e a arquitetura básica antes de saltar para o próximo framework da moda.</p>
+            </article>
+
+            <!-- Artigo 3 -->
+            <article class="post">
+                <span class="category">Design</span>
+                <h2>A Importância do Minimalismo na Interface UI</h2>
+                <div class="date">Publicado text em 10 de Junho de 2026</div>
+                <p>Menos é mais. Interfaces limpas com bom uso de espaços em branco não são apenas bonitas, elas guiam o usuário de forma intuitiva, reduzem a carga cognitiva e melhoram consideravelmente a acessibilidade e a conversão de plataformas digitais.</p>
+            </article>
+
+        </main>
     </div>
 
-    <!-- Vincula o arquivo de funções JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
